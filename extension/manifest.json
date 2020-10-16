@@ -1,0 +1,20 @@
+{
+    "name": "Vaux: Memorizing made easy",
+    "short_name": "Vaux",
+    "version": "1.0.0",
+    "version_name": "1.0.0-pre-alpha",
+    "homepage_url": "https://github.com/thatrobotdev/vaux.app",
+    "description": "Vaux is your voice auxillary, designed to help you every step of the way through memorizing and crushing the performance of a speech.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+      "default_title": "Open Vaux",
+    },
+    "manifest_version": 2
+  }
